@@ -1,0 +1,17 @@
+{
+  "minify": true,
+  "jsc": {
+    "minify": {
+      "compress": {
+        "unused": true
+      },
+      "mangle": true
+    },
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "decorators": true,
+      "dynamicImport": true
+    }
+  }
+}

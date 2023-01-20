@@ -1,8 +1,8 @@
 # Merge TW Props
 
-Utility for intelligently merging React component props using TailwindCSS classes. Merges as many props objects as you give it. Intelligently combines TailwindCSS classes, chains event handlers and merges styles.
+Utility for intelligently merging React component props using TailwindCSS classes. Merges as many props objects as you give it. Intelligently combines TailwindCSS classes, merges refs, chains event handlers and merges styles.
 
-Built on top of [tailwind-merge](https://www.npmjs.com/package/tailwind-merge).
+Built on top of [tailwind-merge](https://www.npmjs.com/package/tailwind-merge) and [react-merge-refs](https://www.npmjs.com/package/react-merge-refs).
 
 ## Authors
 

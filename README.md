@@ -24,7 +24,7 @@ import mergeTWProps from "merge-tw-props";
 export function Checkbox(props: JSX.IntrinsicElements["input"]) {
   return (
     <input
-      {...mergeProps(props, {
+      {...mergeTWProps(props, {
         type: "checkbox",
         className:
           "h-4 w-4 rounded border-gray-300 text-brand-600 focus:ring-brand-500 dark:bg-gray-900 dark:border-gray-700",

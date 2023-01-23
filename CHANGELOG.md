@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/ed-software/merge-tw-props/compare/v1.0.0...v1.0.1) (2023-01-23)
+
+
+### Bug Fixes
+
+* :bug: fix bundling ([b2554d3](https://github.com/ed-software/merge-tw-props/commit/b2554d30f84166019ebbf6641e587f94adfa6029))
+
 ## 1.0.0 (2023-01-20)
 
 

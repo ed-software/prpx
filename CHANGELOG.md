@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/ed-software/prpx/compare/v1.0.2...v2.0.0) (2023-03-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* :sparkles: rename package and make export default
+
+### Features
+
+* :sparkles: rename package and make export default ([daec9a1](https://github.com/ed-software/prpx/commit/daec9a18383f138ef9d8d819fd7d7fa339dc22a8))
+
+
+### Bug Fixes
+
+* :bug: support older versions of nodejs ([ea8f914](https://github.com/ed-software/prpx/commit/ea8f914b41db03970434105ca79bdce9a1961eaf))
+
 ## [1.0.3](https://github.com/ed-software/prpx/compare/v1.0.2...v1.0.3) (2023-03-12)
 
 

@@ -9,7 +9,7 @@
     "Ed Jones"
   ],
   "engines": {
-    "node": "18.12.1"
+    "node": ">=14.0.0"
   },
   "repository": {
     "type": "git",

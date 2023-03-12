@@ -7,7 +7,7 @@ import { isKeyValid } from './utils';
  *
  *  Merges tailwind classes using tailwind-merge. Merges styles. Merges event handlers.
  */
-export default function mergeTWProps<T extends Array<object>>(...allProps: T) {
+export function prpx<T extends Array<object>>(...allProps: T) {
 	/** Merge props objects */
 	const props: Spread<T> = Object.assign({}, ...allProps);
 

@@ -1,9 +1,9 @@
-import mergeTWProps from '../src';
+import { prpx } from '../src';
 import { expect, test, jest } from '@jest/globals';
 
 test('combine classes', () => {
 	expect(
-		mergeTWProps(
+		prpx(
 			{
 				className: 'text-white bg-black',
 			},
@@ -18,7 +18,7 @@ test('combine classes', () => {
 
 test('combine tailwind classes', () => {
 	expect(
-		mergeTWProps(
+		prpx(
 			{
 				className: 'px-2 py-1 bg-red hover:bg-dark-red',
 			},
@@ -33,7 +33,7 @@ test('combine tailwind classes', () => {
 
 test('combine styles', () => {
 	expect(
-		mergeTWProps(
+		prpx(
 			{
 				style: { color: 'white', backgroundColor: 'black' },
 			},
@@ -50,7 +50,7 @@ test('combine event handlers', () => {
 	const onClick1 = jest.fn();
 	const onClick2 = jest.fn();
 
-	const { onClick } = mergeTWProps(
+	const { onClick } = prpx(
 		{
 			onClick: onClick1,
 		},

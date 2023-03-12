@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/ed-software/prpx/compare/v2.0.0...v2.1.0) (2023-03-12)
+
+
+### Features
+
+* :sparkles: support falsey props values ([bb16d7c](https://github.com/ed-software/prpx/commit/bb16d7cd2b30a051cde7e7c9e1c60f6f7a72d5d9))
+
 ## [2.0.0](https://github.com/ed-software/prpx/compare/v1.0.2...v2.0.0) (2023-03-12)
 
 

@@ -1,4 +1,4 @@
-# prpx
+# prpx ![NodeJS CI](https://github.com/ed-software/prpx/actions/workflows/ci.yml/badge.svg)
 
 Utility for intelligently merging React component props using TailwindCSS classes. Merges as many props objects as you give it. Intelligently combines TailwindCSS classes, merges refs, chains event handlers and merges styles.
 

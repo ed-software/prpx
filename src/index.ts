@@ -1,19 +1,20 @@
 import { mergeRefs } from 'react-merge-refs';
 import { twMerge } from 'tailwind-merge';
-import type { Spread } from './types';
+import type { Falsey, Spread } from './types';
 import { isKeyValid } from './utils';
 
 /** Function that merges multiple props objects together.
  *
  *  Merges tailwind classes using tailwind-merge. Merges styles. Merges event handlers.
  */
-export function prpx<T extends Array<object>>(...allProps: T) {
+export function prpx<T extends Array<object | Falsey>>(...allProps: T) {
+	const truthyProps = allProps.filter(Boolean) as Array<object>;
 	/** Merge props objects */
-	const props: Spread<T> = Object.assign({}, ...allProps);
+	const props: Spread<T> = Object.assign({}, ...truthyProps);
 
 	/** Merge class names */
 	if (isKeyValid(props, 'className', 'string')) {
-		const classNames = allProps.reduce(
+		const classNames = truthyProps.reduce(
 			(prev, curr) =>
 				isKeyValid(curr, 'className', 'string') ? twMerge(prev, curr.className) : prev,
 			''

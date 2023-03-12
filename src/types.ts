@@ -30,3 +30,5 @@ export type PrimaryValType = {
 	function: (...args: any) => any;
 	object: object;
 };
+
+export type Falsey = undefined | null | false | '' | 0 | 0n | void;
